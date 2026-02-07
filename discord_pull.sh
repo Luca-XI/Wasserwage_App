@@ -16,6 +16,6 @@ if [[ "$UPDATE_MSG" != "Already up to date." ]]; then
     # Nachricht an Discord senden
     curl -H "Content-Type: application/json" \
          -X POST \
-         -d "{\"content\": \"🚀 **Update auf dem Pi!**\nDas wurde verändert:\n\`$LOG_INFO\`\"}" \
+         -d "{\"content\": \"🚀 **Folgende Datei wurde**\nDas wurde verändert:\n\`$LOG_INFO\`\"}" \
          $WEBHOOK_URL
 fi
