@@ -1,0 +1,21 @@
+# === Wasserwaage Projekt ===
+
+# Discord-Webhook (enthält geheime URL - nicht committen!)
+discord_pull.sh
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+*.iml
+.vscode/
+
+# Flutter (zusätzlich zu wasserwage_app/.gitignore)
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+# Cursor
+.cursor/

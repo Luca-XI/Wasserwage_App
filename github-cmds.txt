@@ -1,5 +1,12 @@
-Bash = git commit -m "Hier deine Nachricht eintragen"
+# Git Befehle für Wasserwaage
 
-hochladen = git push
+hinzufügen (alle Änderungen) = git add .
+hinzufügen (eine Datei)       = git add DATEI
 
-ziehen = git pull
+speichern                    = git commit -m "Hier deine Nachricht eintragen"
+
+hochladen                    = git push
+
+ziehen                       = git pull
+
+status                       = git status
