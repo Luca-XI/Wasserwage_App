@@ -1,0 +1,5 @@
+Bash = git commit -m "Hier deine Nachricht eintragen"
+
+hochladen = git push
+
+ziehen = git pull
